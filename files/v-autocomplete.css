@@ -1,0 +1,43 @@
+.v-autocomplete {
+  position: relative;
+}
+.v-autocomplete .v-autocomplete-list {
+  position: absolute;
+}
+.v-autocomplete .v-autocomplete-list .v-autocomplete-list-item {
+  cursor: pointer;
+}
+.v-autocomplete
+  .v-autocomplete-list
+  .v-autocomplete-list-item.v-autocomplete-item-active {
+  background-color: #f3f6fa;
+}
+
+.v-autocomplete {
+  position: relative;
+}
+
+.v-autocomplete .v-autocomplete-list {
+  /*position:absolute*/
+}
+
+.v-autocomplete .v-autocomplete-list .v-autocomplete-list-item {
+  /*cursor:pointer*/
+  color: #6c6c6c;
+}
+.v-autocomplete
+  .v-autocomplete-list
+  .v-autocomplete-list-item.v-autocomplete-item-active {
+  background-color: #f3f6fa;
+}
+
+.v-autocomplete-list-item .h_s_list_categor_item_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.v-autocomplete-list-item
+  .h_s_list_categor_item_wrap
+  .h_s_list_categor_item_txt {
+  margin-right: auto;
+}

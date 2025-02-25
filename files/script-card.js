@@ -36,7 +36,7 @@ function initializeCardBlock(){
 	if ($('.main-content__wrapper').length>0){
 		tippy('.goods_card_price_tooltip.goods_card_price_tooltip--card', {
 			content:"<div class='tippy-box-wrapper'>\
-						<h3 class='tippy-box__title'>Карта лояльности «Стандартное оборудованиеа»</h3>\
+						<h3 class='tippy-box__title'>Карта лояльности «СТАНДАРТНОЕ ОБОРУДОВАНИЕа»</h3>\
 						<div class='tippy-box-cont'>\
 							<p class='tippy-box__text'>Дает возможность на получение дополнительных скидок и предложений.</p>\
 							<a href='/structure/Programma-loyalnosti/' class='tippy-box__link'>Подробнее в разделе «Покупателям»</a>\
