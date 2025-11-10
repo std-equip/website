@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; URL=/" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    
+    var pathname = window.location.pathname;
+    window.location.href = '/' + '?redirect=' + pathname;
+  </script>
+</head>
+<body></body>
 </html>
